@@ -8,7 +8,7 @@
   pointer-events: none;
 }
 
-.App-header {
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -17,17 +17,24 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
+} */
 
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.intro-component {
+  height: 600px;
+  background-color: #3262a8;
 }
+
+.bio-component {
+  height: 600px;
+  background-color: #5b32a8;
+}
+
+.footer-component {
+  height: 600px;
+  background-color: #991437;
+}
+
