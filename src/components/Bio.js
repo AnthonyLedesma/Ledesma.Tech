@@ -1,6 +1,5 @@
 import React from 'react';
 
-import metadata from './resume.json';
 
 class Bio extends React.Component {
     constructor() {
@@ -9,7 +8,7 @@ class Bio extends React.Component {
       }
 
     render() {
-        return <div class="bio-component">{metadata.bio}</div>;
+        return <div class="bio-component">{this.props.text}</div>;
     }
 } 
 

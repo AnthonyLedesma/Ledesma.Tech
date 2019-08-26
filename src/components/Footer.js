@@ -1,7 +1,5 @@
 import React from 'react';
 
-import metadata from './resume.json';
-
 class Intro extends React.Component {
     constructor() {
         super();
@@ -9,7 +7,7 @@ class Intro extends React.Component {
       }
 
     render() {
-        return <div class="footer-component">{metadata.footer}</div>;
+        return <div class="footer-component">{this.props.text}</div>;
     }
 } 
 
