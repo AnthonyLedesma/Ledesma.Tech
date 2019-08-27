@@ -2,11 +2,11 @@
   text-align: center;
 }
 
-.App-logo {
+/* .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
   pointer-events: none;
-}
+} */
 
 /* .App-header {
   background-color: #282c34;
@@ -25,16 +25,13 @@
 
 .intro-component {
   height: 600px;
-  background-color: #3262a8;
 }
 
 .bio-component {
   height: 600px;
-  background-color: #5b32a8;
 }
 
 .footer-component {
   height: 600px;
-  background-color: #991437;
 }
 

@@ -1,14 +1,16 @@
 import React from 'react';
 
-class Intro extends React.Component {
-    constructor() {
-        super();
-        this.state = {color: "red"};
-      }
+import metadata from '../resume.json';
 
-    render() {
-        return <div class="footer-component">{this.props.text}</div>;
-    }
+class Intro extends React.Component {
+	constructor() {
+		super();
+		this.state = { color: metadata.colors.footer };
+	}
+
+	render() {
+		return <div style={ { backgroundColor: this.state.color } } className="footer-component">{ this.props.text }</div>;
+	}
 } 
 
 export default Intro;
